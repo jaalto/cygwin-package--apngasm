@@ -1,0 +1,69 @@
+apngasm
+------------------------------------------
+
+Assemble APNG animation from PNG/TGA image sequence
+
+Tool to create APNG file from individual PNG files with user given delay
+
+The Animated Portable Network Graphics (APNG) file format is an
+extension to the Portable Network Graphics (PNG) specification. It
+allows for animated PNG files that work similarly to animated GIF
+files, while retaining backward compatibility with non-animated PNG
+files and adding support for 8-bit transparency and 24-bit images.
+
+Runtime requirements:
+  libpng15
+  zlib0
+
+Build requirements:
+  libpng-devel
+  zlib-devel
+
+Canonical homepage:
+  https://sourceforge.net/projects/apngasm
+  http://packages.debian.org/unstable/apngasm
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Max Stepi <maxst@users.sourceforge.net>
+  Bugs: https://sourceforge.net/projects/apngasm/forums/forum/1151026
+
+License:
+  Custom: "As is" (zlib-libpng)
+
+Language:
+  C
+
+------------------------------------------
+
+Build instructions:
+  unpack apngasm-*-src.tar.bz2
+    if you use setup to install this source package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./apngasm*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See Cygwin package archive
+
+------------------------------------------
+
+Port Notes:
+
+----- version 2.6-1 -----
+- Initial release 2012-09-16 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2012 Jari Aalto; Licensed under GPL v2 or later

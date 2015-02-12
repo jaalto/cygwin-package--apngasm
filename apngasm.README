@@ -63,7 +63,8 @@ Files included in the binary distribution:
 Port Notes:
 
 ----- version 2.6-2 -----
-- New upstream release 2015-02-12 Jari Aalto
+- New release 2015-02-12 Jari Aalto
+- Compile with libpng16
 
 ----- version 2.6-1 -----
 - Initial release 2012-09-16 Jari Aalto

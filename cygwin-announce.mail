@@ -1,5 +1,4 @@
-To: cygwin-announce@cygwin.com
-Subject: New package: apngasm 2.6-1 -- Assemble APNG animation from PNG/TGA image sequence
+Subject: updated: apngasm 2.6-2 -- Assemble APNG animation from PNG/TGA image sequenceTo: cygwin-announce@cygwin.com
 --text follows this line--
 
 PACKAGE DESCRIPTION
@@ -19,6 +18,7 @@ files and adding support for 8-bit transparency and 24-bit images.
 CHANGES SINCE LAST RELEASE
 ==========================
 
+Cygwin: compiled with libpng16
 See release notes in /usr/share/doc/apngasm/readme.txt
 
 INSTALL OR UPGRADE NOTES
